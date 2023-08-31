@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- CSS -->
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .heading {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+  }
+  
+  .heading span {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .heading:hover span {
+    transform: rotateY(180deg);
+  }
+
+  .heading span:nth-child(odd):hover {
+    background-color: #FF6363; /* Reddish hover background color for odd letters */
+  }
+
+  .heading span:nth-child(even):hover {
+    background-color: #63C5FF; /* Bluish hover background color for even letters */
+  }
+</style>
+<title>Beautiful Heading with CSS Hover</title>
+</head>
+<body>
+
+  <!-- HTML -->
+<div>
+  <h1 class="heading">
+    <span>Y</span>
+    <span>O</span>
+    <span>U</span>
+    <span>R</span>
+    <span>N</span>
+    <span>A</span>
+    <span>M</span>
+    <span>E</span>
+  </h1>
+</div>
+<br>
+<br>
+<div>
+  </div>
+
+</body>
+</html>
+
+<!-- Developed by Rajarshi.Y -->
